@@ -1,0 +1,38 @@
+.card {
+  padding: 0 0 0 12px;
+  width: 351px !important;
+  height: 714.67px !important;
+  display: inline-block !important;
+}
+
+.navbar {
+  z-index: 100;
+  top: 0;
+  position: sticky;
+  justify-content: center !important;
+}
+
+i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+small {
+  margin-left: 2px;
+  vertical-align: bottom;
+}
+
+.card img {
+  margin-bottom: 7px;
+  margin-right: auto;
+  display: block;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
